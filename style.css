@@ -1,0 +1,141 @@
+*,
+before,
+after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-weight: inherit;
+  font-size: inherit;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+.first-page {
+ 
+  border: 1px solid black;
+  background-color: hsl(213, 19%, 18%);
+
+  width: 360px;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 16px;
+}
+.enclosing {
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+  background-color: hsl(236, 12%, 12%);
+}
+.pic {
+  margin: 9px;
+}
+.upper {
+  color: white;
+  margin-top: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.content {
+  color: hsl(216, 12%, 54%);
+  line-height: 1.45;
+}
+.circle:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+.circle {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background-color: hsl(216, 12%, 54%);
+  margin-top: 23px;
+  margin-bottom: 10px;
+  margin-right: 16px;
+}
+.circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: background-color ease-in-out;
+}
+
+.great {
+  background-color: hsl(217, 12%, 63%);
+}
+.ending {
+  display: block;
+  height: 2.8rem;
+  width: 95%;
+  border-radius: 9999px;
+  margin-bottom: 10px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+.ending:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  transition: background-color ease-in-out;
+}
+
+
+.next-page {
+  border: 1px solid black;
+  background-color: hsl(213, 19%, 18%);
+  width: 300px;
+  padding: 13px;
+  border-radius: 10px;
+  margin: 16px;
+ 
+}
+
+
+.drawing {
+  margin-top: 12px;
+}
+.center {
+  background-color: hsl(213, 19%, 18%);
+  height: 1.9rem;
+  width: 80%;
+  border-radius: 9999px;
+  place-items: center;
+  margin-top: 20px;
+  color: orange;
+}
+
+.lower {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.message {
+  color: hsl(216, 12%, 54%);
+  font-weight: 500;
+}
+
+@media (min-width: 600px) {
+  body {
+    text-align: left;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

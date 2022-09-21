@@ -10,7 +10,8 @@ submitButton.addEventListener("click", function () {
 
   for (const each of select) {
     if (each.clicked == true) {
-      rating.textContent = "You selected " + checkedInput.getAttribute("value") + " out of 5";
+      rating.textContent =
+        "You selected " + checkedInput.getAttribute("value") + " out of 5";
     }
   }
 });
